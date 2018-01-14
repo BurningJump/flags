@@ -2,18 +2,23 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>canvas clock</title>
+	<title>flags</title>
 	<style type="text/css">
 		div{
 			text-align: center;
-			margin-top: 250px;
 		}
 	</style>
 </head>
 <body>
 	<div>
-		<canvas id="china" width="600px" height="400px"></canvas>
+		<select id="country">
+			<option value="China">China</option>
+			<option value="Japan">Japan</option>
+		</select>
+		<canvas id="china" width="300px" height="200px"></canvas>
+		<canvas id="japan" width="300px" height="200px"></canvas>
 	</div>
 	<script type="text/javascript" src="flags.js"></script>
+	<script type="text/javascript" src="main.js"></script>
 </body>
 </html>
