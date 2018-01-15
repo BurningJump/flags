@@ -4,8 +4,18 @@
 	<meta charset="UTF-8">
 	<title>flags</title>
 	<style type="text/css">
+		html,body{
+			padding: 0;
+			margin: 0;
+			width: 100%;
+			height: 100%;
+		}
 		div{
+			width: 100%;
+			height: 100%;
+			background-color: #ccc;
 			text-align: center;
+			padding-top: 150px;
 		}
 	</style>
 </head>
@@ -15,10 +25,19 @@
 			<option value="China">China</option>
 			<option value="Japan">Japan</option>
 		</select>
-		<canvas id="china" width="300px" height="200px"></canvas>
-		<canvas id="japan" width="300px" height="200px"></canvas>
+		<!-- 长宽3:2 -->
+		<!-- 中国、日本、越南、叙利亚、法国 -->
+		<!-- <canvas id="flag" width="500px" height="300px"></canvas> -->
+
+		<!-- 长宽5:3 -->
+		<!-- 德国 -->
+		<!-- <canvas id="flag" width="500px" height="300px"></canvas> -->
+
+		<!-- 长宽1.9:1 -->
+		<!-- 美国 -->
+		<canvas id="flag" width="760px" height="400px"></canvas>
 	</div>
 	<script type="text/javascript" src="flags.js"></script>
-	<script type="text/javascript" src="main.js"></script>
+	<!-- <script type="text/javascript" src="main.js"></script> -->
 </body>
 </html>
